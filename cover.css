@@ -1,0 +1,27 @@
+body {
+  background-image: url("./countdown-3-1600x900.jpg");
+  background-repeat: no-repeat;
+  background-color: #130909;
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+ }
+
+.web_background {
+  display: flex;
+  align-items: center;
+  height: max-content;
+}
+
+.navbar {
+  background-color: rgba(10, 19, 23, 0.14);
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
