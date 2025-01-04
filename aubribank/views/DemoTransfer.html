@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/stylesheets/style.css">
+    
+    <title>Demo transfer</title>
+</head>
+<body>
+    <input id="qr-data" type="text" onchange="generateQR()">
+    
+    <div id="qrcode"></div>
+
+</body>
+<script type="text/javascript" src="../views/qrcode.min.js"></script>
+<script>
+    var qrdata = document.getElementById("qr-data");
+
+    var qrcode = new QRCode(document.getElementById("qrcode"));
+
+    function generateQR() {
+        var data = qrdata.value;
+        var qrcode = new QRCode(data);
+        
+        qrcode.makeCode(data);
+    };
+
+</script>
+
+</html>

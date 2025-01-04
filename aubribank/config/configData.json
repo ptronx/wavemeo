@@ -1,0 +1,11 @@
+[
+    {
+        "valorGarantiaLiquidacion": 5000000,
+        "limitePosicionMultilateral": 1000,
+        "montoMaximoBilleteraMovil": "2,5 veces salario minimo nacional",
+        "salarioMinimoNacionalActual": 2122
+    },
+    {
+        "contraseñaEncriptacion": "abcdefg"
+    }
+]

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>QRcodeimage</title>
+        <script src="../public/javascripts/QRcode.js"></script>
+        
+    </head>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="300" height="300" style="border:1px solid #000000;"></canvas>
+
+        <script src="../node_modules/qrcode/build/qrcode.js"></script>
+        <script>
+        QRCode.toCanvas(document.getElementById('myCanvas'), 'https://www.google.com', function (error) {
+            if (error) console.error(error)
+            console.log('success!');
+        })
+        </script>
+    </body>
+
+</html>
